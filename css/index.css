@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(42, 15, 15);
+    scroll-behavior: smooth;
 }
 .banner-section{
     width: 100%;
@@ -92,14 +93,14 @@ body{
     width: 60%;
 }
 .banner-info h1{
-    font-family: "Trirong", serif;
+    font-family: "Elsie Swash Caps", serif;
     font-weight: bold;
     color:  white;
     margin-bottom: 1%;
     font-size: xx-large;
 }
 .banner-info h2{
-    font-family: "Trirong", serif;
+    font-family: "Elsie Swash Caps", serif;
     margin-bottom: 2%;
     color:  rgb(136, 68, 238);
     font-size: xx-large;
@@ -109,7 +110,8 @@ body{
     font-size: large;
     margin-bottom: 4%;
     color: white;
-    font-family: "Trirong", serif;
+    font-family: "Shippori Mincho B1", serif;
+   
 }
 .banner-info button{
     width: 160px;
@@ -188,12 +190,12 @@ body{
     color: rgb(242, 3, 246);
 }
 .item-two p{
-    font-family: "EB Garamond", serif;
-    font-weight:250;
-    line-height: 25px;
+    font-family: "Young Serif", serif;
     text-align: justify;
+    line-height: 25px;
     font-size: medium;
     color: #ffff;
+    letter-spacing: normal;
 }
 .item-two hr{
     margin-left: 80%;
@@ -305,15 +307,18 @@ body{
     font-family: "Trirong", serif;
 }
 .service-contents p{
-    font-family: "Trirong", serif;
-    padding: 0.5rem 2rem;
+        padding: 0.5rem 2rem;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Elsie Swash Caps", serif;
 }
 .service-contents button{
     margin: 0.4rem 2rem;
     width: 20%;
     height: 25px;
     border: 1px solid white;
-    font-weight: bolder;background-color: inherit;
+    font-weight: bolder;
+    background-color: inherit;
 }
 .service-contents button:hover{
     transform: scale(1.1);
@@ -329,7 +334,6 @@ body{
 .service-contents p{
     line-height: 25px;
     font-size: medium;
-    font-family: "Trirong", serif;
     color: white;
     text-align: justify;
 }
@@ -538,7 +542,7 @@ textarea{
 //
 */
 
-@media only screen and (max-width:450px)
+@media only screen and (max-width:480px)
 {
     .links,
     .list{
@@ -566,12 +570,12 @@ textarea{
         font-size: large;
     }
     .banner-info h2{
-        font-size: large;
+        font-size: xx-large;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .banner-info p{
-        font-size: medium;
+        font-size: large;
         margin-bottom: 2rem;
         margin-top: 1rem;
     }
@@ -591,10 +595,12 @@ textarea{
         padding-top: 2rem;
     }
     .about-container h1{
-        font-size: medium;
+        font-size: larger;
+        margin-bottom: 1rem;
+        
     }
     .about-container hr{
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     .about-items{
         display: flex;
@@ -609,26 +615,34 @@ textarea{
     }
     .item-two h3{
         margin-top: 1rem;
-        margin-left: 70%;
-        margin-bottom: 1%;
+        margin-left: 66%;
+        margin-bottom: 3%;
+        font-weight: bolder;
     }
     .item-two p{
-        font-size: medium;
+        font-size: large;
         line-height: 20px;
+        
     }
     .item-two button{
-        width: 35%;
+        width: 40%;
+        height: 50px;
+        margin-bottom: 2rem;
     }
     /* team */
     .team-container{
         margin-top: 5rem;
     }
+        .team-container h1{
+            font-size: larger;
+        }
     .team-container hr{
-        margin-top: 2%;
+        margin-top: 3%;
+        margin-bottom: 1%;
     }
     .team-info{
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
     /* contact */
     .contact-container h1{
@@ -686,8 +700,10 @@ textarea{
         width: 100%;
     }
     .service-contents button{
-        width: 29%;
-        height: 30px;
+        width: 38%;
+        height: 35px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
     .services-container hr{
         margin-top: 1rem;
@@ -702,5 +718,10 @@ textarea{
     #list-5
 {
 margin: 2rem 1rem;
+}
+.service-contents p{
+    text-align:center;
+    font-family: 'Trirong', serif;
+    font-size: larger;
 }
 }
