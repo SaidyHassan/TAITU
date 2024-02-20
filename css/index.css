@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(42, 15, 15);
+}
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,
+                      rgba(36, 4, 38, 0.818),
+                      rgba(1, 22, 43, 0.853)),
+                      url('../images/food1.jpeg');
+    background-size: cover;
+}
+.top-nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(31, 1, 1);
+    position: fixed;
+    z-index: 999;
+}
+.top-nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 0.5rem 8rem;
+    width: 10px;
+    height: auto;
+    font-size: larger;
+}
+.logo h2
+{
+    color: white;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 12rem;
+}
+.list-link{
+    margin-right: 4rem;
+    align-items: center;
+    text-decoration: none;
+}
+.list-item,
+.list-link{
+    align-items: center;
+    margin: 0.5rem 1rem;
+    transition: .9s;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+.list-link:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(243, 0, 0);
+}
+
+.banner-text-container{
+    position: absolute;
+    top: 30%;
+    left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-container{
+    width: 35%;
+    margin-right: 2rem;
+    height: 50vh;
+    border-radius: 40px;
+    background-image: url('../images/food2.jpg');
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(58, 2, 2);
+}
+.image-container:hover{
+    transition:.9s;
+    transition-timing-function: ease-out;
+    transform: scale(1.1);
+}
+.banner-info{
+    width: 60%;
+}
+.banner-info h1{
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    color:  white;
+    margin-bottom: 1%;
+    font-size: xx-large;
+}
+.banner-info h2{
+    font-family: "Trirong", serif;
+    margin-bottom: 2%;
+    color:  rgb(136, 68, 238);
+    font-size: xx-large;
+}
+.banner-info p{
+    text-align: justify;
+    font-size: large;
+    margin-bottom: 4%;
+    color: white;
+    font-family: "Trirong", serif;
+}
+.banner-info button{
+    width: 160px;
+    height: 30px; 
+    border-radius: 5px;
+    border: 0.5px solid;
+    cursor: pointer;
+    background-color: rgb(31, 1, 1);
+    border: 1px solid #ffff;
+}
+.banner-info button a{
+    color: white;
+    text-align: center;
+}
+.banner-info button:hover{
+    transform: scale(1.1);
+}
+.banner-info button a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Main section codes starts hereee */
+.main-container{
+    background-color: rgb(42, 15, 15);
+}
+.main-items{
+    margin: 0rem 8rem;
+}
+.main-items h1{
+    text-align: center;
+}
+.about-container{
+    padding-top: 5rem;
+}
+.about-container h1{
+    color: rgb(242, 3, 246);
+    font-family: "Trirong", serif;
+}
+.about-container hr{
+    margin: auto;
+    display: block;
+    width: 5%;
+    height: 2px;
+}
+.about-span{
+    color: rgb(0, 225, 255);
+    font-family: "Trirong", serif;
+}
+.about-items{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-one{
+    width: 45%;
+    height: 320px;
+    background-image:
+     url('../images/taitu2.1536677944.0437.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.item-two{
+    width: 50%;
+}
+.item-two h3{
+    margin-bottom: 2%;
+    margin-left: 80%;
+    font-family: "Trirong", serif;
+    right: 8rem;
+    font-weight: bolder;
+    color: rgb(242, 3, 246);
+}
+.item-two p{
+    font-family: "EB Garamond", serif;
+    font-weight:250;
+    line-height: 25px;
+    text-align: justify;
+    font-size: medium;
+    color: #ffff;
+}
+.item-two hr{
+    margin-left: 80%;
+    width: 50px;
+    font-weight: bolder;
+}
+.item-two button{
+    width: 25%;
+    height: 37px;
+    margin-top: 2%;
+    border: 1px solid #ffff;
+    cursor: pointer;color: white;
+    background-color: inherit;
+}
+.item-two button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.item-two a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(242, 3, 246);;
+}
+
+
+/* services ssection 
+//
+//
+//
+*/
+
+
+.services-container{
+    margin-top: 8%;
+}
+.service-unordered{
+    display: flex;
+    flex-direction: row;
+    row-gap: 1rem;
+    justify-content: center;
+}
+#list-1,
+#list-2,
+#list-3,
+#list-4,
+#list-5
+{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-weight: bolder;
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 2rem 3rem;
+    cursor: pointer;
+}
+#list-1:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+#list-2:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+#list-3:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+#list-4:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+#list-5:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+.services-container hr
+{
+    margin: auto;
+    display: block;
+    width: 5%;
+    height: 2px;
+}
+.service-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-contents{
+    width: 45%;
+    height: 300px;
+    background-color: rgb(35, 4, 1);
+    border-radius: 10px;
+}
+.service-images{
+    width: 47%;
+    height: 300px;
+    margin-top: 4rem;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.service-contents h2{
+    padding: 0.5rem 2rem;
+    font-family: "Trirong", serif;
+}
+.service-contents p{
+    font-family: "Trirong", serif;
+    padding: 0.5rem 2rem;
+}
+.service-contents button{
+    margin: 0.4rem 2rem;
+    width: 20%;
+    height: 25px;
+    border: 1px solid white;
+    font-weight: bolder;background-color: inherit;
+}
+.service-contents button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.service-contents a{
+    text-decoration: none;
+    color: rgb(242, 3, 246);
+}
+.service-contents h2{
+    color: rgb(242, 3, 246);
+}
+.service-contents p{
+    line-height: 25px;
+    font-size: medium;
+    font-family: "Trirong", serif;
+    color: white;
+    text-align: justify;
+}
+
+
+
+.team-container{
+    margin-top: 8rem;
+}
+.team-container h1{
+    color: rgb(242, 3, 246);
+}
+.team-container hr{
+    margin: auto;
+    display: block;
+    width: 5%;
+    height: 2px;
+}
+.team-all{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    justify-content: space-between;
+}
+.team-info{
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.team-info:hover{
+    transform: scale(1.1);
+    align-content: center;
+    transition: ease-out .6s;
+}
+.team-image1{
+    width: 100%;
+    height: 70%;
+    background-image:url('../images/IMG_9891.jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.team-image2{
+    width: 100%;
+    height: 70%;
+    background-image:url('../images/3\ \(3\).jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.team-image3{
+    width: 100%;
+    height: 70%;
+    background-image: url('../images/3\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.team-data{
+    background-color: rgb(72, 12, 7);
+    width: auto;
+    height: 30%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.team-data h3{
+    color: rgb(242, 3, 246);
+    padding: 2% 0% 2% 1%;
+    font-family: "Trirong",serif;
+    text-align: center;
+}
+.team-data h4{
+    color: white;
+    padding: 2%  2% 1%;
+    font-family: "Trirong",serif;
+    text-align: center;
+}
+
+
+/* 
+cotact section
+*/
+
+
+.contact-section{
+    background-color: rgb(1, 63, 47);
+    padding-bottom: 5rem;
+}
+.contact-container h1{
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.contact-container hr{
+    margin: auto;
+    display: block;
+    width: 5%;
+    height: 2px;
+}
+.contact-secions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.contact-adress{
+    text-align: center;
+}
+.contact-phone{
+    text-align: center;
+}
+.contact-email{
+    text-align: center;
+}
+.contact-secions h2{
+    margin-top: 2%;
+    font-weight: bolder;
+    color: rgb(242, 3, 246);
+}
+.contact-secions h4{
+    margin-top: 1rem;
+    font-family: "Garamond", serif;
+    color: white;
+}
+
+
+
+.message{
+    background-color: rgb(20, 20, 63);
+    padding-bottom: 3rem;
+}
+.message-section{
+    margin-right:10rem;
+    margin-left:10rem;
+}
+form{
+    padding-top: 3rem;
+}
+.message-info h2{
+    padding-top: 3rem;
+    color: rgb(242, 3, 246);
+    margin-bottom: 2%;
+}
+.message-sections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+}
+.message-info p{
+    color: #fff;
+    font-family: "Garamond", serif;
+    font-size: medium;
+    line-height: 25px;
+}
+.message-form {
+    margin-left: 5rem;
+}
+label{
+    margin-bottom: 2rem;
+    color: rgb(242, 3, 246);
+    font-weight: bolder;
+    font-family: "Trirong", serif;
+}
+input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+textarea{
+    margin-top: 1rem;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 1rem;
+}
+.message-form button{
+    width: 30%;
+    height: 30px;
+    color: rgb(242, 3, 246);
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.message-form button:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
+
+
+/* Media Query for small devices such as
+// Mobile phones and others
+// It's maximum width is 480px;
+//
+//
+*/
+
+@media only screen and (max-width:450px)
+{
+    .links,
+    .list{
+        display: none;
+    }
+    .menu-icon h1
+    {
+        display: block;
+        color: #fff;
+    }
+    .top-nav
+    {
+        height: 50px;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+    .image-container{
+        display: none;
+    }
+    .banner-info{
+        width: 100%;
+    }
+    .banner-info h1{
+        font-size: large;
+    }
+    .banner-info h2{
+        font-size: large;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .banner-info p{
+        font-size: medium;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .banner-text-container{
+        top: 30%;
+        left: 2rem;
+        right: 2rem;
+    }
+    .main-items{
+        margin: 0 3rem;
+    }
+    .main-items h1{
+        padding-top: 0;
+        font-size: medium;
+    }
+    .about-container{
+        padding-top: 2rem;
+    }
+    .about-container h1{
+        font-size: medium;
+    }
+    .about-container hr{
+        margin-bottom: 2rem;
+    }
+    .about-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-one{
+        width: 100%;
+        height: 300px;
+    }
+    .item-two{
+        width: 100%;
+    }
+    .item-two h3{
+        margin-top: 1rem;
+        margin-left: 70%;
+        margin-bottom: 1%;
+    }
+    .item-two p{
+        font-size: medium;
+        line-height: 20px;
+    }
+    .item-two button{
+        width: 35%;
+    }
+    /* team */
+    .team-container{
+        margin-top: 5rem;
+    }
+    .team-container hr{
+        margin-top: 2%;
+    }
+    .team-info{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    /* contact */
+    .contact-container h1{
+        margin-top: 3rem;
+        padding-top: 1rem;
+        font-size: medium;
+    }
+    .contact-container hr{
+        margin-top: 1rem;
+    }
+    .contact-secions{
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .contact-adress{
+        margin-bottom: 2rem;
+    }
+    .contact-secions h2{
+        font-size: medium;
+    }
+
+    /* message section */
+    .message-sections{
+        grid-template-columns: 1fr;
+    }
+    .message-section{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .message-info{
+        width: 90%;
+        margin-left: 2rem;
+    }
+    .message-info p{
+        width: 100%;
+    }
+    .message-form{
+        width: 90%;
+        margin-left: 2rem;
+    }
+
+    /* service items */
+
+    .service-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .service-contents{
+        width: 100%;
+        height: auto;
+    }
+    .service-images{
+        width: 100%;
+    }
+    .service-contents button{
+        width: 29%;
+        height: 30px;
+    }
+    .services-container hr{
+        margin-top: 1rem;
+    }
+    .service-unordered{
+        display: flex;
+    }
+    #list-1,
+    #list-2,
+    #list-3,
+    #list-4,
+    #list-5
+{
+margin: 2rem 1rem;
+}
+}
