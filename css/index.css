@@ -190,12 +190,10 @@ body{
     color: rgb(242, 3, 246);
 }
 .item-two p{
-    font-family: "Young Serif", serif;
-    text-align: justify;
     line-height: 25px;
     font-size: medium;
     color: #ffff;
-    letter-spacing: normal;
+    font-family: "Sofia", cursive;
 }
 .item-two hr{
     margin-left: 80%;
@@ -306,11 +304,13 @@ body{
     padding: 0.5rem 2rem;
     font-family: "Trirong", serif;
 }
-.service-contents p{
+.service-contents p {
         padding: 0.5rem 2rem;
-        font-weight: 400;
         font-style: normal;
         font-family: "Elsie Swash Caps", serif;
+        font-size: medium;
+        line-height: 25px;
+        color: white;
 }
 .service-contents button{
     margin: 0.4rem 2rem;
@@ -331,12 +331,7 @@ body{
 .service-contents h2{
     color: rgb(242, 3, 246);
 }
-.service-contents p{
-    line-height: 25px;
-    font-size: medium;
-    color: white;
-    text-align: justify;
-}
+
 
 
 
@@ -720,8 +715,6 @@ textarea{
 margin: 2rem 1rem;
 }
 .service-contents p{
-    text-align:center;
-    font-family: 'Trirong', serif;
-    font-size: larger;
+    color: white;
 }
 }

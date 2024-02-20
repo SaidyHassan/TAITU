@@ -2,14 +2,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
-    href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sevillana&family=Shippori+Mincho+B1&family=Sofia&family=Young+Serif&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Shippori+Mincho+B1&family=Sofia&family=Young+Serif&display=swap"
     rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
@@ -50,7 +54,7 @@
             </div>
         </div>
         <div class="banner-text-container">
-            <div class="banner-info">
+            <div class="banner-info" data-aos="fade-up" data-aos-duration="3000">
                 <h1>TAITU</h1>
                 <h2>Ethiopian Restaurant<br>
                 <span class="auto-type" style="color: aqua;"></span>
@@ -76,9 +80,9 @@
                 <h1>ABOUT <span class="about-span">TAITU</span></h1>
                 <hr color="red">
                 <div class="about-items">
-                    <div class="item-one">
+                    <div class="item-one" data-aos="fade-right" data-aos-duration="3000">
                     </div>
-                    <div class="item-two">
+                    <div class="item-two" data-aos="fade-left" data-aos-duration="3000">
                         <h3>Who we are</h3><hr>
                         <p>Nestled in the heart of Kilimajaro, <spsan style="color: aqua; font-weight: 1000;">Taitu Restaurant</spsan> invites you on culinary journey
                             that tantalizes the senses and celebrates the rich flavors of East African cuisine.<br>
@@ -110,7 +114,7 @@
                         <li id="list-5">5</li>
                     </ul>
                     <div class="service-items" id="services">
-                        <div class="service-contents">
+                        <div class="service-contents" data-aos="fade-right" data-aos-duration="3000">
                             <h2>Dining</h2>
                             <p>We offers unforgettable journey into the heart of Ethiopian cuisine.
                                 With a menu rich in trtaditional flavors and welcoming ambiance guests experience the 
@@ -122,7 +126,7 @@
                             </p>
                             <button><a href="#">ORDER NOW</a></button>
                         </div>
-                        <div class="service-images">
+                        <div class="service-images" data-aos="fade-left" data-aos-duration="3000">
                             
                             <img src="./images/food2.jpg" height="300px" width="100%" style="border-radius: 10px;">
                         </div>
@@ -173,8 +177,8 @@
                             <h1 style="color: rgb(242, 3, 246);">GET <span style="color: #ffff;">IN</span> <span
                                     style="color: aqua;">TOUCH</span></h1>
                             <hr color="red">
-                            <div class="contact-secions">
-                                <div class="contact-adress">
+                            <div class="contact-secions" data-aos="fade-up" data-aos-duration="3000">
+                                <div class="contact-adress" >
                                     <i class="fa-solid fa-handshake"></i>
                                     <h2>ADRESS</h2>
                                     <h4>Taitu Ethiopian Restaurant</h4>
@@ -208,14 +212,14 @@
                     <section class="message-section">
                         <div class="message-container">
                             <div class="message-sections">
-                                <div class="message-info">
+                                <div class="message-info" data-aos="fade-left" data-aos-duration="3000">
                                     <h2>Message Us</h2>
                             <p>Hello. If you wish to order a certain item please do not send an sms here instead you can go directly to the corresponding 
                                 section.This is only for suggestions or recommendations so as to improve our services.
                                 Thanks for Contacting Us. <br>Excellent service for our customer.
                             </p>
                                 </div>
-                                <div class="message-form">
+                                <div class="message-form" data-aos="fade-right" data-aos-duration="3000">
                                     <form>
                                         <label >First Name</label><br>
                                         <input type="text" id="fname"><br>
@@ -239,6 +243,10 @@
         backSpeed : 60,
         loop : true
     })
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 <script src="./javascript/index.js"></script>
 </html>
