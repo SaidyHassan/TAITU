@@ -524,8 +524,10 @@ textarea{
     transition: .5s;
     transform: scale(1.1);
 }
-
-
+.footer h2
+{
+    text-align: center;
+}
 
 
 /* Media Query for small devices such as
@@ -658,7 +660,7 @@ textarea{
     .contact-adress{
         margin-bottom: 2rem;
     }
-    .contact-secions h2{
+    .contact-sections h2{
         font-size: medium;
     }
 
