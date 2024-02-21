@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(42, 15, 15);
     scroll-behavior: smooth;
 }
 .banner-section{
@@ -193,7 +192,7 @@ body{
     line-height: 25px;
     font-size: medium;
     color: #ffff;
-    font-family: "Sofia", cursive;
+    font-family: "Shippori Mincho B1", serif;
 }
 .item-two hr{
     margin-left: 80%;
@@ -424,7 +423,6 @@ cotact section
     padding-bottom: 5rem;
 }
 .contact-container h1{
-    margin-top: 7rem;
     text-align: center;
     padding-top: 2rem;
 }
@@ -592,10 +590,13 @@ textarea{
     .about-container h1{
         font-size: larger;
         margin-bottom: 1rem;
+        left: 50%;
         
     }
     .about-container hr{
         margin-bottom: 3rem;
+        display: none;
+      
     }
     .about-items{
         display: flex;
@@ -610,19 +611,21 @@ textarea{
     }
     .item-two h3{
         margin-top: 1rem;
-        margin-left: 66%;
-        margin-bottom: 3%;
+        margin-left: 50%;
+        margin-bottom: 10%;
         font-weight: bolder;
     }
     .item-two p{
         font-size: large;
         line-height: 20px;
+        text-align: justify;
         
     }
     .item-two button{
         width: 40%;
         height: 50px;
         margin-bottom: 2rem;
+        margin-top: 2rem;
     }
     /* team */
     .team-container{
@@ -641,7 +644,6 @@ textarea{
     }
     /* contact */
     .contact-container h1{
-        margin-top: 3rem;
         padding-top: 1rem;
         font-size: medium;
     }
