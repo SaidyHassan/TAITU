@@ -106,10 +106,11 @@ body{
 }
 .banner-info p{
     text-align: justify;
-    font-size: large;
+    font-size: medium;
     margin-bottom: 4%;
     color: white;
-    font-family: "Shippori Mincho B1", serif;
+    font-weight: normal;
+    font-family: "Elsie Swash Caps", serif;
    
 }
 .banner-info button{
@@ -192,7 +193,7 @@ body{
     line-height: 25px;
     font-size: medium;
     color: #ffff;
-    font-family: "Shippori Mincho B1", serif;
+    font-family: "Elsie Swash Caps", serif;
 }
 .item-two hr{
     margin-left: 80%;
@@ -570,9 +571,13 @@ textarea{
         margin-bottom: 1rem;
     }
     .banner-info p{
-        font-size: large;
+        font-size: medium;
         margin-bottom: 2rem;
         margin-top: 1rem;
+        text-align: justify;
+        word-spacing: normal;
+        hyphens: auto;
+        word-break: break-all;
     }
     .banner-text-container{
         top: 30%;
@@ -621,6 +626,7 @@ textarea{
         font-size: large;
         line-height: 20px;
         text-align: justify;
+        word-break: break-all;
         
     }
     .item-two button{
